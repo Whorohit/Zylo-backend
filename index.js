@@ -30,12 +30,8 @@ Utils.connectDb();
 
 // User Schema
 
-app.get((req,res)=>{
-   res.json(({
-    message:"enjoy"
-   }))
+app.get("/",(req, res) => res.send("Express on  bro  Vercel"))
 
-})
 
 // Function to Generate a JWT Token
 
