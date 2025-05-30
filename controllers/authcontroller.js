@@ -143,7 +143,7 @@ const profileinfo = async (req, res) => {
 
 const updateProfile = async (req, res) => {
     try {
-        const allowedFields = ['username', 'twitterurl', 'website', 'github', 'keyword', 'profile'];
+        const allowedFields = ['username', 'twitterurl', 'website', 'github', 'keyword', 'profile',"email"];
         const updates = {};
 
         // Filter allowed fields from req.body
